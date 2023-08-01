@@ -37,8 +37,6 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="{{ route('index') }}" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- <img src="assets/img/logo.jpg" alt=""> -->
-        <i class="bi bi-camera"></i>
         <h1>PortFolio</h1>
       </a>
 
@@ -73,7 +71,7 @@
         <div class="col-lg-6 text-center">
           <h2>I'm <span>Sam</span>and I am thrilled to have the opportunity to share a few words about myself and my journey as a web developer.</h2>
           <p>I have a deep passion for web development, specializing in both front-end and back-end technologiesFrom responsive designs to interactive elements, I strive to create visually appealing websites that leave a lasting impression.</p>
-          <a href="{{ route('contact') }}45" class="btn-get-started">Available for hire</a>
+          <a href="{{ route('contact') }}" class="btn-get-started">Available for hire</a>
         </div>
       </div>
     </div>

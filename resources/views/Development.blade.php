@@ -37,8 +37,6 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="{{ route('index') }}" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
         <h1>PortFolio</h1>
       </a>
 
@@ -137,7 +135,7 @@
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   Adam: Variables: "Variables are like containers to store data, and they can change as the program runs."
-                  Adam: Conditional Statements: "With conditionals, you can make decisions in your code, like 'if this happens, then do that.'"                </p>
+                  Adam: Conditional Statements: "With conditionals, you can make decisions in your code, like 'if this happens, then do that.'"</p>
                 <div>
                   <img src="assets/img/Development/Steve Jobs.jpg" class="testimonial-img" alt="">
                   <h3>Sam</h3>
@@ -161,7 +159,7 @@
                 <li><strong>Category</strong> <span>Presentation</span></li>
                 <li><strong>Services</strong> <span>Software Engineering</span></li>
                 <li><strong>Date</strong> <span>January 2023</span></li>
-                <li><strong>Project URL</strong> <a href="#">samdev.online</a></li>
+                <li><strong>Project URL</strong> <a href="http://www.samdev.online/">samdev.online</a></li>
                 <li><a href="http://www.samdev.online/" class="btn-visit align-self-start">Visit Website</a></li>
               </ul>
             </div>

@@ -37,8 +37,6 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="{{ route('index') }}" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
         <h1>PortFolio</h1>
       </a>
 

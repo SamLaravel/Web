@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/house-icon-png-white-32.png" rel="icon">
-  <link href="assets/img/house-icon-png-white-32.png" rel="apple-touch-icon">
+  <link href="{{ asset('assets/img/house-icon-png-white-32.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/house-icon-png-white-32.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +19,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="a{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
 
   <!--  Main CSS File -->
-  <link href="assets/css/rumouz.css" rel="stylesheet">
+  <link href="{{ asset('assets/css/rumouz.css') }}" rel="stylesheet">
 
 </head>
 
@@ -37,8 +37,6 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="{{ route('index') }}" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
         <h1>PortFolio</h1>
       </a>
 
@@ -90,22 +88,22 @@
             <div class="swiper-wrapper align-items-center">
 
               <div class="swiper-slide">
-                <img src="assets/img/Rumouz/Working.jpg" alt="">
+                <img src="{{ asset('assets/img/Rumouz/Working.jpg') }}" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Rumouz/Coding.jpg" alt="">
+                <img src="{{ asset('assets/img/Rumouz/Coding.jpg') }}" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Rumouz/Rumouz1.jpg" alt="">
+                <img src="{{ asset('assets/img/Rumouz/Rumouz1.jpg') }}" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Rumouz/Rumouz2.jpg" alt="">
+                <img src="{{ asset('assets/img/Rumouz/Rumouz2.jpg') }}" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Rumouz/rumouz4.png" alt="">
+                <img src="{{ asset('assets/img/Rumouz/rumouz4.png') }}" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/Rumouz/Coding1.jpg" alt="">
+                <img src="{{ asset('assets/img/Rumouz/Coding1.jpg') }}" alt="">
               </div>
 
             </div>
@@ -145,7 +143,7 @@
                   <i class="bi bi-quote quote-icon-left"></i>
                   Rumouz: Unlocking the Power of Knowledge. Empowering minds, inspiring growth, and shaping futures. Education made accessible, interactive, and transformative."
                   <div>
-                  <img src="assets/img/Rumouz/dark_person.jpg" class="testimonial-img" alt="">
+                  <img src="{{ asset('assets/img/Rumouz/dark_person.jpg') }}" class="testimonial-img" alt="">
                   <h3>Sam</h3>
                   <h4>Web Developer</h4>
                 </div>
@@ -166,7 +164,7 @@
                 <li><strong>Client</strong> <span>Ahed</span></li>
                 <li><strong>Services</strong> <span>Educational Platform</span></li>
                 <li><strong>Date</strong> <span>January 2023</span></li>
-                <li><strong>Rumouz Website</strong> <a href="#">https://romuz.cali-ts.com/</a></li>
+                <li><strong>Rumouz Website</strong> <a href="https://romuz.cali-ts.com/">https://romuz.cali-ts.com/</a></li>
                 <li><a href="https://romuz.cali-ts.com/" class="btn-visit align-self-start">Visit Website</a></li>
               </ul>
             </div>
@@ -198,14 +196,14 @@
   </div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
   <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
 
   <!--  Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

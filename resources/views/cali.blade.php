@@ -37,8 +37,6 @@
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
       <a href="{{ route('index') }}" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
         <h1>PortFolio</h1>
       </a>
 
@@ -155,7 +153,7 @@
                 <li><strong>Company</strong> <span>Cali Technology Solutions</span></li>
                 <li><strong>Services</strong> <span>Tech Company</span></li>
                 <li><strong>Date</strong> <span>January 2018</span></li>
-                <li><strong>Company Website</strong> <a href="#">https://www.cali.global/</a></li>
+                <li><strong>Company Website</strong> <a href="https://www.cali.global/">https://www.cali.global/</a></li>
                 <li><a href="https://www.cali.global/cali.blade.php" class="btn-visit align-self-start">Visit Website</a></li>
               </ul>
             </div>
